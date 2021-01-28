@@ -46,31 +46,24 @@
                                 <div class="icheck-primary">
                                     <input type="checkbox" id="remember">
                                     <label for="remember">
-                                        Remember Me
+                                        lembre me
                                     </label>
                                 </div>
-                            </div>
-                            <!-- /.col -->
-                            <div class="col-4">
-                                <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-                            </div>
-                            <!-- /.col -->
+                            </div>                         
+                        </div>
+
+                        <div class="social-auth-links text-center mt-2 mb-3">
+                            <button type="submit" class="btn btn-primary btn-block">Sign In</button> 
+
+                            <a href="?pg=inicial" class="btn btn-block btn-danger">
+                                Voltar ao Site
+                            </a>
                         </div>
                     </form>
-
-                    <div class="social-auth-links text-center mt-2 mb-3">
-                        
-                        <a href="#" class="btn btn-block btn-primary">
-                            Entrar
-                        </a>
-                        <a href="?pg=inicial" class="btn btn-block btn-danger">
-                             Voltar ao Site
-                        </a>
-                    </div>
                     <!-- /.social-auth-links -->
 
                     <p class="mb-1">
-                        <a href="forgot-password.html">I forgot my password</a>
+                        <a href="forgot-password.html">esqueci a senha</a>
                     </p>
                     <p class="mb-0">
                         <a href="register.html" class="text-center">Register a new membership</a>

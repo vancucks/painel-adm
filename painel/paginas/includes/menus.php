@@ -1,7 +1,7 @@
 <!-- Preloader -->
-<div class="preloader">
-    <img src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
-</div>
+<!--<div class="preloader">
+    <img src="" alt="AdminLTELogo" height="60" width="60">
+</div>-->
 
 <!-- Navbar -->
 <nav class="main-header navbar navbar-expand navbar-white navbar-light">
@@ -11,10 +11,10 @@
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="index3.html" class="nav-link">Home</a>
+            <a href="index3.html" class="nav-link">Início</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="#" class="nav-link">Contact</a>
+            <a href="#" class="nav-link">Contato</a>
         </li>
     </ul>
 
@@ -37,7 +37,7 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
+    <a href="?pg=inicio" class="brand-link">
         <img src="painel/dist/img/avatar4.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
         <span class="brand-text font-weight-light">Painel Adm</span>
     </a>
@@ -50,7 +50,7 @@
                 <img src="img/icon.png" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-                <a href="#" class="d-block">Vinicius Costa</a>
+                <a href="?pg=login" class="d-block">Vinicius Costa</a>
             </div>
         </div>
 
@@ -64,10 +64,30 @@
                      with font-awesome or any other icon font library -->
 
                 <li class="nav-item">
-                    <a href="pages/widgets.html" class="nav-link">
+                    <a href="?pg=produtos" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Produtos
+                            <!--<span class="right badge badge-danger">New</span>-->
+                        </p>
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="?pg=servicos" class="nav-link">
+                        <i class="nav-icon fas fa-th"></i>
+                        <p>
+                            Serviços
+                            <!--<span class="right badge badge-danger">New</span>-->
+                        </p>
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="?pg=contato" class="nav-link">
+                        <i class="nav-icon fas fa-th"></i>
+                        <p>
+                            Contato
                             <!--<span class="right badge badge-danger">New</span>-->
                         </p>
                     </a>
